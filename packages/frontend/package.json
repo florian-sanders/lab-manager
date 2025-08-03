@@ -1,0 +1,32 @@
+{
+  "name": "@lab-manager/frontend",
+  "version": "0.1.0",
+  "description": "Lab Manager frontend application",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest --browser",
+    "test:watch": "vitest --browser --watch",
+    "lint": "oxlint src",
+    "typecheck": "tsc",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@awesome.me/webawesome": "^3.0.0-beta.3",
+    "@trpc/client": "^11.4.3",
+    "lit": "^3.3.1",
+    "zod": "^4.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@vitest/browser": "^3.2.4",
+    "playwright": "^1.54.2",
+    "typescript": "^5.9.2",
+    "vite": "^7.0.6",
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}
