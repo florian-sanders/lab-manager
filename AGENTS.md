@@ -50,6 +50,10 @@ npm run test:browser # Run Vitest in browser mode
 - Return meaningful error messages
 - Log errors with context
 
+### Type Safety
+- Avoid `any` type unless absolutely necessary (prefer `unknown`)
+- Avoid `@ts-ignore` and `@ts-expect-error` comments
+
 ### Testing
 - **TDD approach** - Write tests first
 - Use Vitest for all testing

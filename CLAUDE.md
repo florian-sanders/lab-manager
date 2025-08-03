@@ -116,6 +116,8 @@ packages/
 - Functions/Variables: camelCase (`fetchEntries`)
 - Constants: SCREAMING_SNAKE_CASE (`MAX_FILE_SIZE`)
 - Test files: `*.test.ts` alongside source files
+- **Type Safety**: Avoid `any` type unless absolutely necessary (prefer `unknown`)
+- **Error Handling**: Avoid `@ts-ignore` and `@ts-expect-error` comments
 
 ## Testing Strategy
 
